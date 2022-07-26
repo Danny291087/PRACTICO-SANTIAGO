@@ -1,0 +1,69 @@
+body {
+  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden;
+  background-color: blacks
+}
+
+/* ======MENU====== */
+
+#menu li > a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f3f3f;
+}
+
+#menu form > button {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ======SLIDER DE IMAGENES====== */
+
+.carousel-inner {
+  max-height: 39rem;
+}
+
+
+
+/* ======Medias Small====== */
+
+@media (max-width: 768px) {
+  #intro, #equipo {
+    width: 90% !;
+  }
+
+  /* #equipo p {
+    display: none;
+  } */
+
+  .servicio-fila {
+    width: 100% ;
+    text-align: center;    
+  }
+}
+
+/* ======Medias Extra Small====== */
+
+@media (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center ;
+  }
+}
+
+/* CARDS */
+
+@media (max-width: 414px) {
+  #card {
+    width: 75% !;
+  }
+  .card-img-top {
+    height: 300px;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 912px) {
+  #card {
+    width: 75% ;
+  }
+}
